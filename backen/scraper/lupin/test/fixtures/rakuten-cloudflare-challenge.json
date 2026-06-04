@@ -1,0 +1,45 @@
+{
+  "url": "https://fr.shopping.rakuten.com/",
+  "status": 403,
+  "title": "Just a moment...",
+  "text": "Incompatible browser extension or network configuration\nYour browser extensions or network settings have blocked the security verification process required by fr.shopping.rakuten.com. To resolve this, try the following steps:\nTemporarily disable browser extensions:\nGo to your browser settings.\nLocate your browser extensions and temporarily disable them.\nOnce browser extensions are disabled, refresh this page.\nCheck your network settings:\nVerify if your internet or firewall settings have blocked your device from reaching “challenges.cloudflare.com”. You may need to consult your operating system's help documentation or your network administrator for guidance on adjusting firewall settings.\nIf you do not have permission to adjust network settings, try connecting to a different network.\nIf these steps do not resolve the issue, refer to Cloudflare's troubleshooting documentation for more help. For detailed guidance on how to disable your browser extensions or check your network settings, refer to your browser or device’s documentation.",
+  "headers": {
+    "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-mitigated": "challenge",
+    "cf-ray": "9dd7c6dd69f179d6-CDG",
+    "content-encoding": "zstd",
+    "content-type": "text/html; charset=UTF-8",
+    "critical-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+    "cross-origin-embedder-policy": "require-corp",
+    "cross-origin-opener-policy": "same-origin",
+    "cross-origin-resource-policy": "same-origin",
+    "date": "Tue, 17 Mar 2026 00:10:49 GMT",
+    "origin-agent-cluster": "?1",
+    "permissions-policy": "accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()",
+    "referrer-policy": "same-origin",
+    "server": "cloudflare",
+    "server-timing": "chlray;desc=\"9dd7c6dd69f179d6\"\ncfEdge;dur=1,cfOrigin;dur=0",
+    "strict-transport-security": "max-age=15552000",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN"
+  },
+  "cookies": [
+    {
+      "name": "cf_chl_rc_ni",
+      "domain": "fr.shopping.rakuten.com"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".shopping.rakuten.com"
+    }
+  ],
+  "frameUrls": [
+    "https://fr.shopping.rakuten.com/"
+  ],
+  "scriptUrls": [
+    "https://fr.shopping.rakuten.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9dd7c6f0b88d0354",
+    "https://challenges.cloudflare.com/turnstile/v0/g/ea2d291c0fdc/api.js?onload=MNurp8&render=explicit",
+    "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
+  ]
+}

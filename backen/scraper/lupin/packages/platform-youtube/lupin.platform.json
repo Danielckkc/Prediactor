@@ -1,0 +1,40 @@
+{
+  "apiVersion": 1,
+  "name": "youtube",
+  "displayName": "YouTube",
+  "description": "Installable platform provider for YouTube videos.",
+  "version": "0.1.0",
+  "entry": "./index.js",
+  "tools": {
+    "search": [
+      {
+        "tool": "search_youtube",
+        "alias": "youtube",
+        "description": "Search YouTube videos.",
+        "inputSchema": "search.standard",
+        "handler": "search"
+      }
+    ],
+    "fetch": [
+      {
+        "tool": "fetch_youtube_video",
+        "alias": "youtube",
+        "description": "Fetch a YouTube video. Returns title, channel, description, stats, thumbnail, and metadata.",
+        "inputSchema": "fetch.standard",
+        "handler": "fetchPost"
+      }
+    ]
+  },
+  "smokeTests": [
+    {
+      "name": "search-index",
+      "kind": "search",
+      "alias": "youtube",
+      "query": "karpathy",
+      "args": {
+        "limit": 3,
+        "sort": "relevance"
+      }
+    }
+  ]
+}

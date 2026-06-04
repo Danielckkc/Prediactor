@@ -1,0 +1,28 @@
+{
+  "apiVersion": 1,
+  "name": "hello-example",
+  "displayName": "Hello Example",
+  "description": "Minimal example platform package used to show how custom Lupin providers work.",
+  "version": "0.0.1",
+  "entry": "./index.js",
+  "tools": {
+    "search": [
+      {
+        "tool": "search_hello_example",
+        "alias": "hello-example",
+        "description": "Search the Hello Example platform.",
+        "inputSchema": "search.standard",
+        "handler": "search"
+      }
+    ],
+    "fetch": [
+      {
+        "tool": "fetch_hello_example_post",
+        "alias": "hello-example",
+        "description": "Fetch a post from the Hello Example platform.",
+        "inputSchema": "fetch.standard",
+        "handler": "fetchPost"
+      }
+    ]
+  }
+}

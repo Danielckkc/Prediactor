@@ -1,0 +1,29 @@
+{
+  "apiVersion": 1,
+  "name": "polymarket",
+  "displayName": "Polymarket",
+  "description": "Built-in platform provider for Polymarket events.",
+  "version": "builtin",
+  "entry": "./index.js",
+  "tools": {
+    "search": [
+      {
+        "tool": "search_polymarket",
+        "alias": "polymarket",
+        "description": "Search Polymarket events. Returns market titles, slugs, and metadata.",
+        "inputSchema": "search.standard",
+        "handler": "search"
+      }
+    ],
+    "fetch": [
+      {
+        "tool": "fetch_polymarket_market",
+        "alias": "polymarket",
+        "description": "Fetch a Polymarket event. Returns market outcomes with prices, liquidity, volume, open interest, and public comments (up to maxComments).",
+        "inputSchema": "fetch.standard",
+        "handler": "fetchPost"
+      }
+    ]
+  }
+}
+

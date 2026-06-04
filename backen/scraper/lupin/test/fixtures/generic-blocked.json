@@ -1,0 +1,14 @@
+{
+  "url": "https://example.test/challenge",
+  "status": 403,
+  "title": "Access denied",
+  "text": "Access denied. Verify you are human to continue.",
+  "headers": {
+    "content-type": "text/html; charset=utf-8"
+  },
+  "cookies": [],
+  "frameUrls": [
+    "https://example.test/challenge"
+  ],
+  "scriptUrls": []
+}

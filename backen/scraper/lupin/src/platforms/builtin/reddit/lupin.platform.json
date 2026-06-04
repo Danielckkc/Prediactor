@@ -1,0 +1,29 @@
+{
+  "apiVersion": 1,
+  "name": "reddit",
+  "displayName": "Reddit",
+  "description": "Built-in platform provider for Reddit thread search and fetch.",
+  "version": "builtin",
+  "entry": "./index.js",
+  "tools": {
+    "search": [
+      {
+        "tool": "search_reddit",
+        "alias": "reddit",
+        "description": "Search Reddit posts. Returns post titles, URLs, subreddits, and scores.",
+        "inputSchema": "search.standard",
+        "handler": "search"
+      }
+    ],
+    "fetch": [
+      {
+        "tool": "fetch_reddit_post",
+        "alias": "reddit",
+        "description": "Fetch a Reddit thread. Returns post content, score, upvote ratio, and top comments sorted by score (up to maxComments).",
+        "inputSchema": "fetch.standard",
+        "handler": "fetchPost"
+      }
+    ]
+  }
+}
+

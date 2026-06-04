@@ -1,0 +1,48 @@
+{
+  "apiHost": "https://edith.xiaohongshu.com",
+  "http": {
+    "cookie": "",
+    "headers": {}
+  },
+  "rateLimit": {
+    "callsPerMinute": 30,
+    "burst": 5
+  },
+  "search": {
+    "pageSize": 20,
+    "sort": "popular",
+    "noteType": 0,
+    "timeoutSeconds": 10,
+    "maxItems": 200
+  },
+  "comment": {
+    "pageSize": 20,
+    "xsecToken": "",
+    "timeoutSeconds": 10,
+    "maxItemsPerNote": 200
+  },
+  "profile": {
+    "timeoutSeconds": 10
+  },
+  "userPosts": {
+    "pageSize": 30,
+    "timeoutSeconds": 10,
+    "maxItemsPerUser": 200
+  },
+  "download": {
+    "directory": "data/downloads",
+    "timeoutSeconds": 30
+  },
+  "output": {
+    "directory": "../json",
+    "filenamePrefix": "rednote_output_"
+  },
+  "notify": {
+    "desktop": true,
+    "smtpHost": "",
+    "smtpPort": 587,
+    "smtpUser": "",
+    "smtpPassword": "",
+    "to": ""
+  }
+}

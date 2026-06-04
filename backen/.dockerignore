@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.ruff_cache/
+.pytest_cache/
+alembic/versions/__pycache__/
+#just like a gitignore file, just ignore all of this file so that the image won't have our key, key is secure

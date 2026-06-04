@@ -1,0 +1,25 @@
+# ===== Prediactor backend — single .gitignore for everything under backen/ =====
+
+# --- Python / uv ---
+.venv/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+
+# --- Secrets / env (the .example template stays committed) ---
+.env
+.env.*
+!.env.example
+
+# --- Lupin scraping engine (Node deps are reinstalled with `npm install`) ---
+scraper/lupin/node_modules/
+
+# --- All scraper JSON output kept LOCAL (each machine regenerates it; never pushed) ---
+scraper/json/*.json
+scraper/rednote/data/downloads/
+scraper/rednote/data/COOKIE_EXPIRED.flag
+
+# Committed on purpose: uv.lock, requirements.txt, pyproject.toml,
+# scraper/lupin/package.json, scraper/lupin/package-lock.json.
+# (scraper/json/ output is NOT committed — both scrapers recreate it on run.)

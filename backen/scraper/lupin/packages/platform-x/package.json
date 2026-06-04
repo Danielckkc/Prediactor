@@ -1,0 +1,17 @@
+{
+  "name": "@lupin/platform-x",
+  "version": "0.1.0",
+  "description": "Installable Lupin platform provider for public X/Twitter posts.",
+  "type": "module",
+  "exports": "./index.js",
+  "files": [
+    "index.js",
+    "providers",
+    "lupin.platform.json",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "lupin-cli": ">=0.2.0"
+  },
+  "license": "MIT"
+}

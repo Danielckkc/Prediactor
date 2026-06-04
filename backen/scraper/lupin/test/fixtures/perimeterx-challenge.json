@@ -1,0 +1,14 @@
+{
+  "url": "https://www.zillow.com/new-york-ny/",
+  "status": 403,
+  "title": "Access to this page has been denied",
+  "text": "Before we continue...\nPress & Hold to confirm you are a human (and not a bot).\nReference ID bc53f35d-3085-11f1-a25e-f27c1dcb9d37",
+  "rawHtml": "<!DOCTYPE html><html><head><title>Access to this page has been denied</title></head><body><script>window._pxUuid='bc53f35d-3085-11f1-a25e-f27c1dcb9d37';window._pxAppId='PXHYx10rg3';/* PerimeterX assignments */</script><script src=\"https://captcha.px-cloud.net/PXHYx10rg3/captcha.js\"></script></body></html>",
+  "headers": {
+    "content-type": "text/html",
+    "x-px-blocked": "1"
+  },
+  "cookies": [],
+  "frameUrls": [],
+  "scriptUrls": []
+}

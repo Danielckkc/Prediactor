@@ -1,0 +1,12 @@
+{
+  "name": "lupin-platform-hello-example",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Example installable platform package for Lupin.",
+  "files": [
+    "index.js",
+    "lupin.platform.json",
+    "README.md"
+  ]
+}

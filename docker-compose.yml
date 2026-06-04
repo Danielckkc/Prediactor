@@ -1,0 +1,37 @@
+# Local infrastructure for Prediactor.
+# Runs Postgres (the database) + Adminer (a web UI to browse it).
+# The FastAPI backend and Next.js frontend run natively (not in Docker) for fast reload.
+services:
+  db:
+    image: postgres:16
+    container_name: prediactor-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-prediactor}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-prediactor}
+      POSTGRES_DB: ${POSTGRES_DB:-prediactor}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-prediactor} -d ${POSTGRES_DB:-prediactor}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  adminer:
+    image: adminer:latest
+    container_name: prediactor-adminer
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8080:8080"
+    environment:
+      ADMINER_DEFAULT_SERVER: db
+
+# Named volume → DB data persists across `make db-down`/`db-up`; removed by `make clean`.
+volumes:
+  pgdata:

@@ -1,0 +1,25 @@
+{
+  "url": "https://www.jeuxvideo.com/forums/0-3011927-0-1-0-1-0-finance.htm",
+  "status": 403,
+  "title": "Just a moment...",
+  "text": "www.jeuxvideo.com\nPerforming security verification\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\nIncompatible browser extension or network configuration\nYour browser extensions or network settings have blocked the security verification process required by www.jeuxvideo.com.",
+  "headers": {
+    "server": "cloudflare",
+    "cf-mitigated": "challenge",
+    "content-type": "text/html; charset=UTF-8"
+  },
+  "cookies": [
+    {
+      "name": "__cf_bm",
+      "domain": ".jeuxvideo.com"
+    }
+  ],
+  "frameUrls": [
+    "https://www.jeuxvideo.com/forums/0-3011927-0-1-0-1-0-finance.htm",
+    "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/r732v/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto"
+  ],
+  "scriptUrls": [
+    "https://www.jeuxvideo.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9dd7971cf971faee",
+    "https://challenges.cloudflare.com/turnstile/v0/g/ea2d291c0fdc/api.js?onload=MNurp8&render=explicit"
+  ]
+}

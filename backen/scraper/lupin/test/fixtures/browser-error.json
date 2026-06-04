@@ -1,0 +1,12 @@
+{
+  "url": "chrome-error://chromewebdata/",
+  "status": 0,
+  "title": "127.0.0.1",
+  "text": "This site can’t be reached\n127.0.0.1 refused to connect.\nTry:\nChecking the connection\nChecking the proxy and the firewall\nERR_CONNECTION_REFUSED\nReload\nDetails",
+  "headers": {},
+  "cookies": [],
+  "frameUrls": [
+    "chrome-error://chromewebdata/"
+  ],
+  "scriptUrls": []
+}

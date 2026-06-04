@@ -1,0 +1,56 @@
+[
+  {
+    "name": "simple_agentic_ai",
+    "query": "agentic AI workflows"
+  },
+  {
+    "name": "simple_tiktok_marketing",
+    "query": "best tiktok marketing strategies"
+  },
+  {
+    "name": "x_tiktok_marketing_range",
+    "query": "best tiktok marketing strategies",
+    "site": "x.com",
+    "dateFrom": "2026-02-28",
+    "dateTo": "2026-03-28"
+  },
+  {
+    "name": "x_ux_ui_range",
+    "query": "UX UI best practice",
+    "site": "x.com",
+    "dateFrom": "2026-02-26",
+    "dateTo": "2026-03-26"
+  },
+  {
+    "name": "reddit_design_system",
+    "query": "design system accessibility",
+    "site": "reddit.com"
+  },
+  {
+    "name": "reddit_research_ops",
+    "query": "user research operations",
+    "site": "reddit.com"
+  },
+  {
+    "name": "tiktok_retention",
+    "query": "tiktok retention editing tips",
+    "site": "tiktok.com"
+  },
+  {
+    "name": "tiktok_marketing",
+    "query": "tiktok marketing strategy",
+    "site": "tiktok.com"
+  },
+  {
+    "name": "x_user_interviews_range",
+    "query": "user interview insights",
+    "site": "x.com",
+    "dateFrom": "2026-02-26",
+    "dateTo": "2026-03-26"
+  },
+  {
+    "name": "reddit_pm_frameworks",
+    "query": "product management prioritization framework",
+    "site": "reddit.com"
+  }
+]

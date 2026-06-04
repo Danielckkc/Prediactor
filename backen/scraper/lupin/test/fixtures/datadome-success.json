@@ -1,0 +1,22 @@
+{
+  "url": "https://www.reuters.com/world/us/",
+  "status": 200,
+  "title": "Latest U.S. News | Top headlines from the USA | Reuters",
+  "text": "1 hour ago\nUS judge upends Kennedy's overhaul of childhood vaccine policies\nThe ruling dealt a significant setback for the reduced childhood vaccination schedule championed by Health Secretary Robert F. Kennedy Jr.\n1 hour ago\nWhite House chief of staff Susie Wiles has early-stage breast cancer, will continue working\n7 hours ago\nBank of America settles Epstein accusers' lawsuit\n1 hour ago\nExclusive: US SEC's top cop resigns after just six months on the job\n3 hours ago\nMore than 12,500 US flights delayed or canceled due to major storms\n2 hours ago\nSupreme Court to weigh Trump bid to end legal protections for Haitian, Syrian migrants\n4 hours ago\nUS FCC could speed up broadcast license reviews, says agency head Carr\n2 hours ago\nFAA to resume hearing Thursday on plan to reduce flights at Chicago O'Hare\n7 hours ago\nUS Postal Service to ask Congress for urgent reforms to survive 'beyond next year'\n5 hours ago\nOneMain sued by US states for saddling subprime borrowers with add-ons, fees\nLegal\ncategory\n·5 hours ago\nTrump administration asks judge to revisit ruling blocking subpoenas to Fed's Powell\nPresident Donald Trump's administration has asked a judge to reconsider his ruling that has effectively blocked a criminal investigation into U.S. Federal Reserve Chair Jerome Powell, according to court documents made public on Monday.\nLegal\ncategory\n·1 hour ago\nVaccine agenda stymied by Boston judge who has handed Trump setbacks\nA federal judge in Boston who blocked major parts of Health and Human Services Secretary Robert F. Kennedy Jr.'s sweeping moves to upend U.S. immunization policies has already drawn the ire of President Donald Trump's administration for numerous rulings impeding his policies in other cases.\nUnited States\ncategory\n·3 hours ago\nTrump mixes Iran war talk with Kennedy Center overhaul at board meeting\nU.S. President Donald Trump gathered his hand-picked board of trustees of the John F. Kennedy Center for the Performing Arts on Monday for a meeting that veered between the war with Iran and his plans to overhaul the Washington cultural landmark.",
+  "headers": {
+    "content-type": "text/html;charset=utf-8",
+    "server": "CloudFront"
+  },
+  "cookies": [
+    {
+      "name": "datadome",
+      "domain": ".reuters.com"
+    }
+  ],
+  "frameUrls": [
+    "https://www.reuters.com/world/us/"
+  ],
+  "scriptUrls": [
+    "https://ct.captcha-delivery.com/i.js"
+  ]
+}

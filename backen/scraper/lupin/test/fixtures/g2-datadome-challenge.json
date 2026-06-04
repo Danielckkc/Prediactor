@@ -1,0 +1,46 @@
+{
+  "url": "https://www.g2.com/",
+  "status": 403,
+  "title": "g2.com",
+  "text": "var dd={'rt':'i','cid':'AHrlqAAAAAMARB14KJiewUcA8Nb35g==','hsh':'229542D5C186C7F5A5BB092FBDD92B','b':1637,'s':48621,'e':'f9dc9892bff5685d845e286b651e7474987f620cbb06637165aee945f9c1111476d34234f73f39645a5a3d44d7b90810','qp':'','host':'geo.captcha-delivery.com','cookie':'FhMTqoY133rWkoRHFl3CWu4b1lUlKyEuApln~fhLmTh1PQju4h6Md4sgVuHhn7kgNr8ITixSfxQHdy3cpfGqmgXNrQhPaUZQw4~HYQh7kpeDiv9BWCd6~v8UbBIqjEUh'}(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9dd7c8cc5998ca0e',t:'MTc3MzcwNjMyOS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();",
+  "headers": {
+    "accept-ch": "Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "x-dd-b, x-set-cookie",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cache-control": "max-age=0, private, no-cache, no-store, must-revalidate",
+    "cf-ray": "9dd7c8cc5998ca0e-CDG",
+    "charset": "utf-8",
+    "content-encoding": "br",
+    "content-type": "text/html;charset=utf-8",
+    "date": "Tue, 17 Mar 2026 00:12:09 GMT",
+    "pragma": "no-cache",
+    "server": "cloudflare",
+    "set-cookie": "datadome=FhMTqoY133rWkoRHFl3CWu4b1lUlKyEuApln~fhLmTh1PQju4h6Md4sgVuHhn7kgNr8ITixSfxQHdy3cpfGqmgXNrQhPaUZQw4~HYQh7kpeDiv9BWCd6~v8UbBIqjEUh; Max-Age=31536000; Domain=.g2.com; Path=/; Secure; SameSite=Lax\n__cf_bm=y302kx43LJcsLB_z_r.OvKESF9OGCZ3L4KIhRVz73Vk-1773706329-1.0.1.1-PkslrUhpdAVFH6k1yzvcq7h0ANa878NoBHPpVWHtTUPNG4YXT4JyL5DogV5NjX3LYAMbwozOns6GphWih6Jc8QsIijNnly9CWjJ9BmsXd_Q; path=/; expires=Tue, 17-Mar-26 00:42:09 GMT; domain=.g2.com; HttpOnly; Secure; SameSite=None",
+    "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-datadome": "protected",
+    "x-datadome-cid": "AHrlqAAAAAMARB14KJiewUcA8Nb35g==",
+    "x-dd-b": "259"
+  },
+  "cookies": [
+    {
+      "name": "datadome",
+      "domain": ".g2.com"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".g2.com"
+    }
+  ],
+  "frameUrls": [
+    "https://www.g2.com/",
+    "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMARB14KJiewUcA8Nb35g==&cid=cKrVwxcQBAuI3dhsTqvzTfa3sCGBFpXeMCq8JJGWgMCiTmO~hm3OQObOAHOJ~qAWbO2ZinCWF279f5AemvXead2_fO_lCZdT6P38rW37A7YGVhUqaFTgrHDtnHJjNKYp&referer=https%3A%2F%2Fwww.g2.com%2F&hash=229542D5C186C7F5A5BB092FBDD92B&t=bv&s=48621&e=13cf17993504eab040ade12f6ebffb4a076a1341ad5a95d5f4f5d66345e47772b656aeba3dcb7e1a4d59c3e6fc2ddbda&ir=32%2C29%2C40&dm=dc_ir&b=1637",
+    "about:blank"
+  ],
+  "scriptUrls": [
+    "https://ct.captcha-delivery.com/i.js"
+  ]
+}

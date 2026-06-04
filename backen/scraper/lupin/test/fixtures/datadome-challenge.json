@@ -1,0 +1,26 @@
+{
+  "url": "https://www.reuters.com/world/us/",
+  "status": 401,
+  "title": "reuters.com",
+  "text": "var dd={'rt':'i','cid':'AHrlqAAAAAMA-j7esaH9oHMA8Nb35g==','hsh':'2013457ADA70C67D6A4123E0A76873','host':'geo.captcha-delivery.com'}",
+  "headers": {
+    "content-type": "text/html;charset=utf-8",
+    "x-datadome": "protected",
+    "x-datadome-cid": "AHrlqAAAAAMA-j7esaH9oHMA8Nb35g==",
+    "x-dd-b": "3",
+    "server": "CloudFront"
+  },
+  "cookies": [
+    {
+      "name": "datadome",
+      "domain": ".reuters.com"
+    }
+  ],
+  "frameUrls": [
+    "https://www.reuters.com/world/us/",
+    "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA-j7esaH9oHMA8Nb35g%3D%3D&hash=2013457ADA70C67D6A4123E0A76873"
+  ],
+  "scriptUrls": [
+    "https://ct.captcha-delivery.com/i.js"
+  ]
+}

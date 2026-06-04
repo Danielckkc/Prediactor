@@ -1,0 +1,17 @@
+{
+  "name": "@lupin/platform-youtube",
+  "version": "0.1.0",
+  "description": "Installable Lupin platform provider for YouTube videos.",
+  "type": "module",
+  "exports": "./index.js",
+  "files": [
+    "index.js",
+    "providers",
+    "lupin.platform.json",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "lupin-cli": ">=0.2.0"
+  },
+  "license": "MIT"
+}

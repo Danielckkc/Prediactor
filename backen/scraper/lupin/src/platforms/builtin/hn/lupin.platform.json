@@ -1,0 +1,29 @@
+{
+  "apiVersion": 1,
+  "name": "hn",
+  "displayName": "Hacker News",
+  "description": "Built-in platform provider for Hacker News stories and comment threads.",
+  "version": "builtin",
+  "entry": "./index.js",
+  "tools": {
+    "search": [
+      {
+        "tool": "search_hn",
+        "alias": "hn",
+        "description": "Search Hacker News stories. Returns story titles, URLs, points, and comment counts.",
+        "inputSchema": "search.standard",
+        "handler": "search"
+      }
+    ],
+    "fetch": [
+      {
+        "tool": "fetch_hn_item",
+        "alias": "hn",
+        "description": "Fetch a Hacker News story or comment thread. Returns title, points, and recursive comment tree (up to maxComments).",
+        "inputSchema": "fetch.standard",
+        "handler": "fetchPost"
+      }
+    ]
+  }
+}
+

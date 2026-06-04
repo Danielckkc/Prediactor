@@ -1,0 +1,42 @@
+{
+  "apiVersion": 1,
+  "name": "x",
+  "displayName": "X / Twitter",
+  "description": "Built-in platform provider for public X/Twitter posts.",
+  "version": "builtin",
+  "entry": "./index.js",
+  "tools": {
+    "search": [
+      {
+        "tool": "search_x",
+        "alias": "x",
+        "description": "Search for public X/Twitter posts via the search_web SERP chain. Results depend on external search indexing, not X's own search.",
+        "inputSchema": "search.standard",
+        "handler": "search",
+        "browser": {
+          "camoufox": true
+        }
+      }
+    ],
+    "fetch": [
+      {
+        "tool": "fetch_x_post",
+        "alias": "x",
+        "description": "Fetch a public X/Twitter post. Returns author, text, engagement counts (likes, reposts, bookmarks, views), and media URLs. Comments/replies are NOT available.",
+        "inputSchema": "fetch.standard",
+        "handler": "fetchPost"
+      }
+    ]
+  },
+  "smokeTests": [
+    {
+      "name": "known-public-post",
+      "kind": "fetch",
+      "alias": "x",
+      "url": "https://x.com/uxlinks/status/1867484141723197613",
+      "args": {
+        "engine": "camoufox"
+      }
+    }
+  ]
+}

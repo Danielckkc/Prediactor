@@ -1,0 +1,14 @@
+{
+  "url": "https://example.test/wait",
+  "status": 200,
+  "title": "Just a moment...",
+  "text": "Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content. Legitimate content.",
+  "headers": {
+    "content-type": "text/html; charset=utf-8"
+  },
+  "cookies": [],
+  "frameUrls": [
+    "https://example.test/wait"
+  ],
+  "scriptUrls": []
+}

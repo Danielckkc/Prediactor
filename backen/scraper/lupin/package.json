@@ -1,0 +1,76 @@
+{
+  "name": "lupin-cli",
+  "version": "0.2.0",
+  "description": "Adaptive scraper with HTTP-first routing, Camoufox headless escalation, and Patchright fallback.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./platform-sdk": "./src/platform-sdk.js",
+    "./providers/*": "./src/providers/*.js",
+    "./runtime/*": "./src/runtime/*.js",
+    "./version": "./src/version.js"
+  },
+  "bin": {
+    "lupin": "./bin/lupin.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "docs/*.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "README.md"
+  ],
+  "scripts": {
+    "camoufox:fetch": "camoufox-js fetch",
+    "doctor": "node ./bin/lupin.js doctor",
+    "setup": "node ./bin/lupin.js setup",
+    "benchmark:live": "node ./scripts/live-benchmark.mjs",
+    "test": "node ./scripts/run-tests.mjs",
+    "test:live": "node ./scripts/run-tests.mjs live",
+    "test:all": "node ./scripts/run-tests.mjs all",
+    "check:platform-packages": "node ./scripts/check-platform-packages.mjs",
+    "check:platform-packages:smoke": "node ./scripts/check-platform-packages.mjs --smoke",
+    "smoke:control": "node ./bin/lupin.js fetch https://example.com --format json",
+    "smoke:reuters": "node ./bin/lupin.js fetch https://www.reuters.com/world/us/ --format json",
+    "tiktok:trends": "node ./scripts/tiktok-product-trends.mjs",
+    "instagram:trends": "node ./scripts/instagram-product-trends.mjs"
+  },
+  "keywords": [
+    "scraping",
+    "camoufox",
+    "playwright",
+    "patchright",
+    "browser-automation",
+    "mcp"
+  ],
+  "author": "Vincent Nguyen <contact@nguyenvincent.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vnguyen42/lupin.git"
+  },
+  "homepage": "https://github.com/vnguyen42/lupin#readme",
+  "bugs": {
+    "url": "https://github.com/vnguyen42/lupin/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@mozilla/readability": "^0.6.0",
+    "camoufox-js": "^0.9.3",
+    "cheerio": "^1.2.0",
+    "linkedom": "^0.18.12",
+    "patchright": "^1.58.2",
+    "picomatch": "^4.0.4",
+    "playwright": "^1.58.2",
+    "playwright-core": "^1.58.2",
+    "psl": "^1.15.0",
+    "turndown": "^7.2.4",
+    "turndown-plugin-gfm": "^1.0.2",
+    "undici": "^7.24.5"
+  }
+}

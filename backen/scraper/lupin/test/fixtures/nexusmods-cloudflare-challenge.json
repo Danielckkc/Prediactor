@@ -1,0 +1,41 @@
+{
+  "url": "https://www.nexusmods.com/",
+  "status": 403,
+  "title": "Just a moment...",
+  "text": "www.nexusmods.com\nPerforming security verification\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\nIncompatible browser extension or network configuration\nYour browser extensions or network settings have blocked the security verification process required by www.nexusmods.com. To resolve this, try the following steps:\nTemporarily disable browser extensions:\nGo to your browser settings.\nLocate your browser extensions and temporarily disable them.\nOnce browser extensions are disabled, refresh this page.\nCheck your network settings:\nVerify if your internet or firewall settings have blocked your device from reaching “challenges.cloudflare.com”. You may need to consult your operating system's help documentation or your network administrator for guidance on adjusting firewall settings.\nIf you do not have permission to adjust network settings, try connecting to a different network.\nIf these steps do not resolve the issue, refer to Cloudflare's troubleshooting documentation for more help. For detailed guidance on how to disable your browser extensions or check your network settings, refer to your browser or device’s documentation.",
+  "headers": {
+    "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+    "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "cf-mitigated": "challenge",
+    "cf-ray": "9dd7c75d7a9d55f3-CDG",
+    "content-encoding": "br",
+    "content-type": "text/html; charset=UTF-8",
+    "critical-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+    "cross-origin-embedder-policy": "require-corp",
+    "cross-origin-opener-policy": "same-origin",
+    "cross-origin-resource-policy": "same-origin",
+    "date": "Tue, 17 Mar 2026 00:11:10 GMT",
+    "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "origin-agent-cluster": "?1",
+    "permissions-policy": "accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()",
+    "referrer-policy": "same-origin",
+    "server": "cloudflare",
+    "server-timing": "chlray;desc=\"9dd7c75d7a9d55f3\"",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN"
+  },
+  "cookies": [
+    {
+      "name": "__cf_bm",
+      "domain": ".nexusmods.com"
+    }
+  ],
+  "frameUrls": [
+    "https://www.nexusmods.com/"
+  ],
+  "scriptUrls": [
+    "https://www.nexusmods.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9dd7c75d7a9d55f3",
+    "https://challenges.cloudflare.com/turnstile/v0/g/ea2d291c0fdc/api.js?onload=MNurp8&render=explicit"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "url": "https://view.com.au/",
+  "status": 403,
+  "title": "view.com.au",
+  "text": "var dd={'rt':'c','cid':'AHrlqAAAAAMASag1htkQOrAAsJROPA==','hsh':'D3793F7B92751506654120487DF505','t':'fe','qp':'','s':7721,'e':'6cafa0f16e18d3fdc710874b358899990eae955de53af79599c19ca42547be7ab7e0a1a735b10261907ff1367ded7662','host':'geo.captcha-delivery.com','cookie':'LBMOFPwa9S~kFh7wj5UTOuW_myDGGYhj~ip~rKuQzkIoJ6BUd7xodhQp18qZMeIr7tpzyB46pY4ULnfbw1ACM9FjDC6mFW~vBQ6OMNWeUywZR8WiWzLOGx3q8A_EkGSn'}",
+  "headers": {
+    "accept-ch": "Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cache-control": "max-age=0, private, no-cache, no-store, must-revalidate",
+    "charset": "utf-8",
+    "content-length": "770",
+    "content-type": "text/html;charset=utf-8",
+    "date": "Tue, 17 Mar 2026 00:12:17 GMT",
+    "pragma": "no-cache",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "set-cookie": "datadome=LBMOFPwa9S~kFh7wj5UTOuW_myDGGYhj~ip~rKuQzkIoJ6BUd7xodhQp18qZMeIr7tpzyB46pY4ULnfbw1ACM9FjDC6mFW~vBQ6OMNWeUywZR8WiWzLOGx3q8A_EkGSn; Max-Age=31536000; Domain=.view.com.au; Path=/; Secure; SameSite=Lax",
+    "strict-transport-security": "max-age=31536000",
+    "via": "1.1 fd000a128e6bb534d86b423d2d506d52.cloudfront.net (CloudFront)",
+    "x-amz-cf-id": "HDuidEGOOTFU7TadKqE2UYKGp7D0CDVj4juNKtER0HT1TykuTrjBOA==",
+    "x-amz-cf-pop": "CDG52-P2",
+    "x-cache": "Error from cloudfront",
+    "x-content-type-options": "nosniff",
+    "x-datadome": "protected",
+    "x-datadome-cid": "AHrlqAAAAAMASag1htkQOrAAsJROPA==",
+    "x-dd-b": "1",
+    "x-frame-options": "SAMEORIGIN",
+    "x-rev-req-id": "ac10099d-7d59-4c8a-9ead-1d78278a39c2",
+    "x-xss-protection": "1; mode=block"
+  },
+  "cookies": [
+    {
+      "name": "_UI_AUTHENTICITY_",
+      "domain": "view.com.au"
+    },
+    {
+      "name": "v_uid",
+      "domain": "view.com.au"
+    },
+    {
+      "name": "datadome",
+      "domain": ".view.com.au"
+    }
+  ],
+  "frameUrls": [
+    "https://view.com.au/",
+    "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMASag1htkQOrAAsJROPA%3D%3D&hash=D3793F7B92751506654120487DF505&cid=LBMOFPwa9S~kFh7wj5UTOuW_myDGGYhj~ip~rKuQzkIoJ6BUd7xodhQp18qZMeIr7tpzyB46pY4ULnfbw1ACM9FjDC6mFW~vBQ6OMNWeUywZR8WiWzLOGx3q8A_EkGSn&t=fe&referer=https%3A%2F%2Fview.com.au%2F&s=7721&e=6cafa0f16e18d3fdc710874b358899990eae955de53af79599c19ca42547be7ab7e0a1a735b10261907ff1367ded7662&dm=cd"
+  ],
+  "scriptUrls": [
+    "https://ct.captcha-delivery.com/c.js"
+  ]
+}

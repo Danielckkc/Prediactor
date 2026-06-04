@@ -1,0 +1,40 @@
+{
+  "apiVersion": 1,
+  "name": "youtube",
+  "displayName": "YouTube",
+  "description": "Built-in platform provider for YouTube videos.",
+  "version": "builtin",
+  "entry": "./index.js",
+  "tools": {
+    "search": [
+      {
+        "tool": "search_youtube",
+        "alias": "youtube",
+        "description": "Search YouTube videos. Returns video titles, URLs, channel names, and view counts.",
+        "inputSchema": "search.standard",
+        "handler": "search"
+      }
+    ],
+    "fetch": [
+      {
+        "tool": "fetch_youtube_video",
+        "alias": "youtube",
+        "description": "Fetch a YouTube video page. Returns title, channel, description, view count, duration, thumbnail, and caption track metadata. Comments and full transcripts are NOT available.",
+        "inputSchema": "fetch.standard",
+        "handler": "fetchPost"
+      }
+    ]
+  },
+  "smokeTests": [
+    {
+      "name": "search-index",
+      "kind": "search",
+      "alias": "youtube",
+      "query": "karpathy",
+      "args": {
+        "limit": 3,
+        "sort": "relevance"
+      }
+    }
+  ]
+}

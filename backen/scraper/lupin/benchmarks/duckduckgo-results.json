@@ -1,0 +1,1334 @@
+{
+  "startedAt": "2026-03-28T19:27:41.532Z",
+  "browserEngine": "camoufox",
+  "methods": [
+    "direct_df",
+    "homepage_df",
+    "homepage_operators"
+  ],
+  "timeoutMs": 30000,
+  "byMethod": {
+    "direct_df": {
+      "requests": 10,
+      "passes": 10,
+      "blocked": 0,
+      "withResults": 10,
+      "siteMatched": 10,
+      "topSiteMatched": 10,
+      "visibleDateFilter": 3,
+      "visibleSiteFilter": 8
+    },
+    "homepage_df": {
+      "requests": 10,
+      "passes": 10,
+      "blocked": 0,
+      "withResults": 10,
+      "siteMatched": 10,
+      "topSiteMatched": 10,
+      "visibleDateFilter": 3,
+      "visibleSiteFilter": 8
+    },
+    "homepage_operators": {
+      "requests": 10,
+      "passes": 10,
+      "blocked": 0,
+      "withResults": 10,
+      "siteMatched": 10,
+      "topSiteMatched": 10,
+      "visibleDateFilter": 0,
+      "visibleSiteFilter": 8
+    }
+  },
+  "runs": [
+    {
+      "name": "simple_agentic_ai",
+      "query": "agentic AI workflows",
+      "browserEngine": "camoufox",
+      "method": "direct_df",
+      "durationMs": 3397,
+      "finalUrl": "https://duckduckgo.com/?q=agentic+AI+workflows&ia=web",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": false,
+      "visibleSiteFilter": false,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "Agentic workflows guide: definition, patterns, and use cases",
+          "url": "https://www.dataiku.com/stories/blog/agentic-workflows",
+          "snippet": "Agentic workflows let AI agents plan, act, and learn with minimal oversight. Discover components, real examples, pros, risks, and a clear seven-step implementation checklist.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "What are agentic workflows? - IBM",
+          "url": "https://www.ibm.com/think/topics/agentic-workflows",
+          "snippet": "Agentic workflows are AI-driven processes where autonomous AI agents make decisions, take actions and coordinate tasks with minimal human intervention.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "What Are Agentic Workflows? Design Patterns & When to Use Them",
+          "url": "https://neo4j.com/blog/agentic-ai/what-are-agentic-workflows/",
+          "snippet": "Traditional deterministic workflows are fully predefined systems. Every step, branch, and outcome is specified in advance using rules or process definitions. They excel when the path from input to outcome is known and stable. Non-agentic AI workflows introduce LLMs into the process, but the overall structure remains mostly linear. The sequence of steps is still predefined, even if one step is ...",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "simple_tiktok_marketing",
+      "query": "best tiktok marketing strategies",
+      "browserEngine": "camoufox",
+      "method": "direct_df",
+      "durationMs": 3330,
+      "finalUrl": "https://duckduckgo.com/?q=best+tiktok+marketing+strategies&ia=web",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": false,
+      "visibleSiteFilter": false,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "TikTok Marketing: The Complete Guide for 2026 | Sprout Social",
+          "url": "https://sproutsocial.com/insights/tiktok-marketing/",
+          "snippet": "This complete guide on TikTok marketing will walk you through what TikTok marketing is, how to create your strategy, and offer tips for success.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "10 Step TikTok Marketing Strategy Guide [Updated: 2026]",
+          "url": "https://houseofmarketers.com/ultimate-tiktok-marketing-strategy-guide/",
+          "snippet": "The ultimate roadmap to mastering TikTok marketing strategy, content development, and promotion, brought to you by House of Marketers.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "The complete guide to TikTok marketing: Tips, examples & tools",
+          "url": "https://blog.hootsuite.com/tiktok-marketing/",
+          "snippet": "Considering TikTok marketing for your business? You've come to the right place. Learn how to make the most of this engaging social network.",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "x_tiktok_marketing_range",
+      "query": "best tiktok marketing strategies",
+      "site": "x.com",
+      "dateFrom": "2026-02-28",
+      "dateTo": "2026-03-28",
+      "browserEngine": "camoufox",
+      "method": "direct_df",
+      "durationMs": 3981,
+      "finalUrl": "https://duckduckgo.com/?q=best+tiktok+marketing+strategies+site%3Ax.com&df=2026-02-28..2026-03-28&ia=web",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [
+        "x.com"
+      ],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": true,
+      "visibleSiteFilter": true,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "This Reddit user broke down the ONLY 3 ways to market your app 1/ Reels ...",
+          "url": "https://x.com/WasimShips/status/2036827980740059193",
+          "snippet": "> Platforms: TikTok + Facebook/Instagram only 3/ The 30 App Strategy > Build 30 variations of the same core idea > Different markets, niches, or slight tweaks > Let Apple's algorithm do the distribution work The pattern: Volume beats perfection in app marketing Pick one strategy. Commit fully. Don't split focus.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "jordy (@jordymaui) on X",
+          "url": "https://x.com/jordymaui/status/2036449933826424873",
+          "snippet": "Marketing across TikTok, Instagram, X, Reddit, YouTube, and Pinterest - for twelve different products - would normally need a team of five minimum, god knows how many in those NYC offices for classic companies lol.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "Lucas Marques (@LucasMarquesSv) on X",
+          "url": "https://x.com/LucasMarquesSv/status/2033543635195539463",
+          "snippet": "These communities exist in organized groups on Facebook, Discord, Reddit, Telegram, and WhatsApp, and in a more decentralized and informal way on X, YouTube, Instagram, and TikTok. Not only as a marketing strategy or sales channel, but as a way to learn faster.",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "x_ux_ui_range",
+      "query": "UX UI best practice",
+      "site": "x.com",
+      "dateFrom": "2026-02-26",
+      "dateTo": "2026-03-26",
+      "browserEngine": "camoufox",
+      "method": "direct_df",
+      "durationMs": 3328,
+      "finalUrl": "https://duckduckgo.com/?q=UX+UI+best+practice+site%3Ax.com&df=2026-02-26..2026-03-26&ia=web",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [
+        "x.com"
+      ],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": true,
+      "visibleSiteFilter": true,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "Insane \"RAG\" database of UX/UI best practices (634) which I've built ...",
+          "url": "https://x.com/alexgilev/status/2033356684895129737",
+          "snippet": "Alex (@alexgilev). 8 likes 868 views. Insane \"RAG\" database of UX/UI best practices (634) which I've built for my own projects and spent $800+ on research. Comes as bonus with @AgenticUi 🎁",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "Clawdbot News: New Release - OpenClaw v2026.3.24! This release is ...",
+          "url": "https://x.com/TeksEdge/status/2036960070022640030",
+          "snippet": "🦞 Clawdbot News: New Release - OpenClaw v2026.3.24! 🚀 This release is packed with a ton of improvements that update the UX along with rock-solid stability. 🪏 I dug into the tickets 🎫 and this is what I found.👇 🔥 Top New Features • 👔 MS Teams is now on the official SDK! 🛠️ Added AI UX best practices 🧠 like 1:1 streaming 🌊, typing indicators 💬, welcome cards ...",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "AI Native Foundation (@AINativeF) on X",
+          "url": "https://x.com/AINativeF/status/2029104565354913863",
+          "snippet": "💡 Best Practices 1. \"Feed Good Articles to Your Lobster, It Gets Smarter on Its Own\" (@berryxia) @berryxia's practical tip hit 107.7k views: just paste useful OpenClaw articles to your agent and it'll self-improve — saves tokens, gets smarter, does more. Similar to @AlexFinn's earlier \"self-evolution\" approach, but with a Chinese-language ...",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "reddit_design_system",
+      "query": "design system accessibility",
+      "site": "reddit.com",
+      "browserEngine": "camoufox",
+      "method": "direct_df",
+      "durationMs": 3133,
+      "finalUrl": "https://duckduckgo.com/?q=design+system+accessibility+site%3Areddit.com&ia=web",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [
+        "reddit.com"
+      ],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": false,
+      "visibleSiteFilter": true,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "Accessibility Notes in a Design System - Any Tips or References : r ...",
+          "url": "https://www.reddit.com/r/UXDesign/comments/1awkkex/accessibility_notes_in_a_design_system_any_tips/",
+          "snippet": "I'm developing a design system from scratch and I'd like to hear your suggestions regarding accessibility notes for screen readers per component. Would it be advisable to include a section for these notes? Do you have any references to a design system that follows this approach?",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "Do this before presenting your design! - Accessibility check ... - Reddit",
+          "url": "https://www.reddit.com/r/UXDesign/comments/z2xfqr/do_this_before_presenting_your_design/",
+          "snippet": "Before posting your design online, presenting it to clients or testing it with real humans… make sure to run this checklist: Contrast - Does the contrast ratio of every important interaction element is high enough?",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "WCAG for Designers : r/UXDesign - Reddit",
+          "url": "https://www.reddit.com/r/UXDesign/comments/1csiqwz/wcag_for_designers/",
+          "snippet": "I've always been a bit confused on what accessible design looks like in a practical sense when they are implemented into your process as a designer. I've seen job postings with requirements like \"Good working knowledge of WCAG2.1AA accessibility standard with understanding of WCAG2.2AA\". What does this mean for a UX Designer? I do the basics like using contrast checkers for color, not relying ...",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "reddit_research_ops",
+      "query": "user research operations",
+      "site": "reddit.com",
+      "browserEngine": "camoufox",
+      "method": "direct_df",
+      "durationMs": 3134,
+      "finalUrl": "https://duckduckgo.com/?q=user+research+operations+site%3Areddit.com&ia=web",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [
+        "reddit.com"
+      ],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": false,
+      "visibleSiteFilter": true,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "Any Product managers who successfully made the pivot to User Research ...",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/17betv9/any_product_managers_who_successfully_made_the/",
+          "snippet": "Any Product managers who successfully made the pivot to User Research? As the title says, I'm strongly considering this as a next step. My favorite parts of the job involve understanding user problems and gathering user insight. I've executed a few studies and found them very rewarding.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "How do you conduct user research when your company has no research ...",
+          "url": "https://www.reddit.com/r/UXDesign/comments/1bydnc8/how_do_you_conduct_user_research_when_your/",
+          "snippet": "You have to be creative. If you know your management is against conducting direct research after multiple efforts, approach to get buyin to buy research imo. To support buyin showcase some of free resources you found, and how they helped you, and state that having access to such difinitive research would make decisions easier and quicker.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "What issues do you have conducting user research? - Reddit",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/17r8pcy/what_issues_do_you_have_conducting_user_research/",
+          "snippet": "What issues do you have conducting user research? It feels to me like user research is a difficult problem. Getting close to customers and getting genuinely valuable feedback is something I've not figured out yet.",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "tiktok_retention",
+      "query": "tiktok retention editing tips",
+      "site": "tiktok.com",
+      "browserEngine": "camoufox",
+      "method": "direct_df",
+      "durationMs": 3063,
+      "finalUrl": "https://duckduckgo.com/?q=tiktok+retention+editing+tips+site%3Atiktok.com&ia=web",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [
+        "tiktok.com"
+      ],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": false,
+      "visibleSiteFilter": true,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "#tiktokretentiontips | TikTok",
+          "url": "https://www.tiktok.com/tag/tiktokretentiontips",
+          "snippet": "tiktok retention tips | Watch the latest videos about #tiktokretentiontips on TikTok.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "Essential Video Editing Tips for Better Viewer Retention | TikTok",
+          "url": "https://www.tiktok.com/@itsnaglis/video/7593897725347876109",
+          "snippet": "Editing do's vs don'ts👆 1️⃣ Putting the captions too far from your face forces the viewer to choose between looking at you and the captions. This makes the video harder to watch and decreases retention, leading to less views. Instead, place the captions just below your chin or above your head to reduce eye fatigue. 2️⃣ Viewers typically make eye contact with you, so keeping the ...",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "RETENTION EDITING TIPS, keep em watching. The magic of post ... - TikTok",
+          "url": "https://www.tiktok.com/@lacapture/video/7324181846692990254",
+          "snippet": "43.1K Likes, 400 Comments. TikTok video from LACAPTURE (@lacapture): \"RETENTION EDITING TIPS, keep em watching. The magic of post production 🔥 🏼 #cinematic #lacapture\". retention editing. original sound - LACAPTURE.",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "tiktok_marketing",
+      "query": "tiktok marketing strategy",
+      "site": "tiktok.com",
+      "browserEngine": "camoufox",
+      "method": "direct_df",
+      "durationMs": 3057,
+      "finalUrl": "https://duckduckgo.com/?q=tiktok+marketing+strategy+site%3Atiktok.com&ia=web",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [
+        "tiktok.com"
+      ],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": false,
+      "visibleSiteFilter": true,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "TikTok Marketing Guide:",
+          "url": "https://ads.tiktok.com/business/en-US/blog/tiktok-marketing-guide",
+          "snippet": "TikTok is a powerful tool for businesses and creators to connect with an engaged audience. Learn how to market on TikTok and integrate short-form video in your marketing strategy.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "Learning & Resources for Marketers | TikTok for Business",
+          "url": "https://ads.tiktok.com/business/en-US/resources",
+          "snippet": "Explore our best practices, tips and guidelines for building your brand presence and marketing on TikTok. Understand the TikTok audience and plan your strategy.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "TikTok Small Business Marketing Guide:",
+          "url": "https://ads.tiktok.com/business/en-US/blog/small-business-marketing-tiktok-ultimate-guide",
+          "snippet": "Discover how small businesses can leverage TikTok's organic content, paid ads, and creator partnerships to expand their audience, drive engagement, and boost sales. Learn effective strategies from real-life success stories.",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "x_user_interviews_range",
+      "query": "user interview insights",
+      "site": "x.com",
+      "dateFrom": "2026-02-26",
+      "dateTo": "2026-03-26",
+      "browserEngine": "camoufox",
+      "method": "direct_df",
+      "durationMs": 3068,
+      "finalUrl": "https://duckduckgo.com/?q=user+interview+insights+site%3Ax.com&df=2026-02-26..2026-03-26&ia=web",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [
+        "x.com"
+      ],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": true,
+      "visibleSiteFilter": true,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "My interview with NVIDIA VP Kari Briski is now available on YouTube ...",
+          "url": "https://x.com/kimmonismus/status/2036909766812090766",
+          "snippet": "Chubby♨️ (@kimmonismus). 206 likes 19 replies. My interview with NVIDIA VP Kari Briski is now available on YouTube. This is my third interview with NVIDIA, the second with Kari, and previously with Ming-Yu Liu. As I mentioned, it's been a long road to get here. I started on X purely for the joy of discussing AI with like-minded people and initially wanted to remain anonymous, as I never ...",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "StackPilot (@TheStackPilot) / Posts / X",
+          "url": "https://x.com/TheStackPilot",
+          "snippet": "StackPilot TheStackPilot 4h Interview Question: What is the difference between REST and RPC? REST: • Resource-based • Uses HTTP methods RPC: • Action-based • Calls functions directly In real systems, both are used. Know when to use what.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "Dropping tomorrow on Deep Dive Podcast is an exclusive interview with ...",
+          "url": "https://x.com/Rachelwolf00/status/2031368605930041796",
+          "snippet": "Rachel Wolfson (@Rachelwolf00). 60 likes 5 replies. Dropping tomorrow on Deep Dive Podcast is an exclusive interview with @josephkelly of @unchained: Are you curious about how Bitcoin is evolving in the world of financial services? Wondering how self-custody works and what it means for everyday investors? You're not alone. As Bitcoin's landscape grows more complex and its user base expands ...",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "reddit_pm_frameworks",
+      "query": "product management prioritization framework",
+      "site": "reddit.com",
+      "browserEngine": "camoufox",
+      "method": "direct_df",
+      "durationMs": 3140,
+      "finalUrl": "https://duckduckgo.com/?q=product+management+prioritization+framework+site%3Areddit.com&ia=web",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [
+        "reddit.com"
+      ],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": false,
+      "visibleSiteFilter": true,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "Prioritization Frameworks : r/ProductManagement - Reddit",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/135zpyg/prioritization_frameworks/",
+          "snippet": "The way I look at prioritization frameworks is that they all somewhat boil down to 3 major categories that people evaluate and everything you see in most frameworks is just doing an analysis on one of these: - Value - Effort - Risk (Confidence) This should look very similar to Kano or ICE if you're looking at frameworks. If you're just starting out in the space, it's more valuable to have some ...",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "How do you prioritize? : r/ProductManagement - Reddit",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/mj5ly2/how_do_you_prioritize/",
+          "snippet": "I don't use a framework. We've tried, but the market landscape, opportunities, and challenges change quickly enough that any scoring rubric quickly becomes outdated or needs to be constantly updated (meaning prioritization decisions still can't be compared historically!) I rely on experience and stakeholder feedback.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "What are some of the prioritisation frameworks that you ... - Reddit",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/se5rhd/what_are_some_of_the_prioritisation_frameworks/",
+          "snippet": "One needs to still keep learning and utilizing framework concepts because frameworks cover a lot of parameters that ought to be thought of when it comes to prioritization. Besides it always is nice to show the effort put into prioritization and looks good in upward management.",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "simple_agentic_ai",
+      "query": "agentic AI workflows",
+      "browserEngine": "camoufox",
+      "method": "homepage_df",
+      "durationMs": 7728,
+      "finalUrl": "https://duckduckgo.com/?ia=web&origin=funnel_home_website&t=h_&q=agentic+AI+workflows&chip-select=search",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": false,
+      "visibleSiteFilter": false,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "Agentic workflows guide: definition, patterns, and use cases",
+          "url": "https://www.dataiku.com/stories/blog/agentic-workflows",
+          "snippet": "Agentic workflows let AI agents plan, act, and learn with minimal oversight. Discover components, real examples, pros, risks, and a clear seven-step implementation checklist.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "What are agentic workflows? - IBM",
+          "url": "https://www.ibm.com/think/topics/agentic-workflows",
+          "snippet": "Agentic workflows are AI-driven processes where autonomous AI agents make decisions, take actions and coordinate tasks with minimal human intervention.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "What Are Agentic Workflows? Design Patterns & When to Use Them",
+          "url": "https://neo4j.com/blog/agentic-ai/what-are-agentic-workflows/",
+          "snippet": "Traditional deterministic workflows are fully predefined systems. Every step, branch, and outcome is specified in advance using rules or process definitions. They excel when the path from input to outcome is known and stable. Non-agentic AI workflows introduce LLMs into the process, but the overall structure remains mostly linear. The sequence of steps is still predefined, even if one step is ...",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "simple_tiktok_marketing",
+      "query": "best tiktok marketing strategies",
+      "browserEngine": "camoufox",
+      "method": "homepage_df",
+      "durationMs": 8256,
+      "finalUrl": "https://duckduckgo.com/?ia=web&origin=funnel_home_website&t=h_&q=best+tiktok+marketing+strategies&chip-select=search",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": false,
+      "visibleSiteFilter": false,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "10 Step TikTok Marketing Strategy Guide [Updated: 2026]",
+          "url": "https://houseofmarketers.com/ultimate-tiktok-marketing-strategy-guide/",
+          "snippet": "The ultimate roadmap to mastering TikTok marketing strategy, content development, and promotion, brought to you by House of Marketers.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "TikTok Marketing: The Complete Guide for 2026 | Sprout Social",
+          "url": "https://sproutsocial.com/insights/tiktok-marketing/",
+          "snippet": "This complete guide on TikTok marketing will walk you through what TikTok marketing is, how to create your strategy, and offer tips for success.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "50+ TikTok Marketing Strategies That Actually Work | AMW®",
+          "url": "https://amworldgroup.com/blog/tiktok-marketing-strategies",
+          "snippet": "TikTok's rapid ascent as a marketing powerhouse stems from its unique algorithm that prioritizes engagement over follower count, creating a level playing field for brands. With over 1 billion users, businesses can utilize TikTok's authentic content culture to connect emotionally with audiences. Strategies include leveraging trending sounds, participating in challenges, and collaborating with ...",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "x_tiktok_marketing_range",
+      "query": "best tiktok marketing strategies",
+      "site": "x.com",
+      "dateFrom": "2026-02-28",
+      "dateTo": "2026-03-28",
+      "browserEngine": "camoufox",
+      "method": "homepage_df",
+      "durationMs": 11067,
+      "finalUrl": "https://duckduckgo.com/?q=best+tiktok+marketing+strategies+site%3Ax.com&df=2026-02-28..2026-03-28&ia=web",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [
+        "x.com"
+      ],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": true,
+      "visibleSiteFilter": true,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "This Reddit user broke down the ONLY 3 ways to market your app 1/ Reels ...",
+          "url": "https://x.com/WasimShips/status/2036827980740059193",
+          "snippet": "> Platforms: TikTok + Facebook/Instagram only 3/ The 30 App Strategy > Build 30 variations of the same core idea > Different markets, niches, or slight tweaks > Let Apple's algorithm do the distribution work The pattern: Volume beats perfection in app marketing Pick one strategy. Commit fully. Don't split focus.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "jordy (@jordymaui) on X",
+          "url": "https://x.com/jordymaui/status/2036449933826424873",
+          "snippet": "Marketing across TikTok, Instagram, X, Reddit, YouTube, and Pinterest - for twelve different products - would normally need a team of five minimum, god knows how many in those NYC offices for classic companies lol.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "Lucas Marques (@LucasMarquesSv) on X",
+          "url": "https://x.com/LucasMarquesSv/status/2033543635195539463",
+          "snippet": "These communities exist in organized groups on Facebook, Discord, Reddit, Telegram, and WhatsApp, and in a more decentralized and informal way on X, YouTube, Instagram, and TikTok. Not only as a marketing strategy or sales channel, but as a way to learn faster.",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "x_ux_ui_range",
+      "query": "UX UI best practice",
+      "site": "x.com",
+      "dateFrom": "2026-02-26",
+      "dateTo": "2026-03-26",
+      "browserEngine": "camoufox",
+      "method": "homepage_df",
+      "durationMs": 10112,
+      "finalUrl": "https://duckduckgo.com/?q=UX+UI+best+practice+site%3Ax.com&df=2026-02-26..2026-03-26&ia=web",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [
+        "x.com"
+      ],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": true,
+      "visibleSiteFilter": true,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "Insane \"RAG\" database of UX/UI best practices (634) which I've built ...",
+          "url": "https://x.com/alexgilev/status/2033356684895129737",
+          "snippet": "Alex (@alexgilev). 8 likes 868 views. Insane \"RAG\" database of UX/UI best practices (634) which I've built for my own projects and spent $800+ on research. Comes as bonus with @AgenticUi 🎁",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "Clawdbot News: New Release - OpenClaw v2026.3.24! This release is ...",
+          "url": "https://x.com/TeksEdge/status/2036960070022640030",
+          "snippet": "🦞 Clawdbot News: New Release - OpenClaw v2026.3.24! 🚀 This release is packed with a ton of improvements that update the UX along with rock-solid stability. 🪏 I dug into the tickets 🎫 and this is what I found.👇 🔥 Top New Features • 👔 MS Teams is now on the official SDK! 🛠️ Added AI UX best practices 🧠 like 1:1 streaming 🌊, typing indicators 💬, welcome cards ...",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "CLAUDE(dot)md Best Practices CLAUDE(dot)md is a critical file for ...",
+          "url": "https://x.com/101babich/status/2037217567664664690",
+          "snippet": "Nick Babich (@101babich). 7 likes 465 views. 📕 CLAUDE (dot)md Best Practices CLAUDE (dot)md is a critical file for providing project-specific context to Claude Code. It serves an onboarding guide for AI to your project requirements and codebase. If you're using Claude Code for prototyping, here are 10 Sections to Include in your CLAUDE (dot)md: 1⃣ Project overview This is the highest ...",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "reddit_design_system",
+      "query": "design system accessibility",
+      "site": "reddit.com",
+      "browserEngine": "camoufox",
+      "method": "homepage_df",
+      "durationMs": 9145,
+      "finalUrl": "https://duckduckgo.com/?ia=web&origin=funnel_home_website&t=h_&q=design+system+accessibility+site%3Areddit.com&chip-select=search",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [
+        "reddit.com"
+      ],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": false,
+      "visibleSiteFilter": true,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "Accessibility Notes in a Design System - Any Tips or References : r ...",
+          "url": "https://www.reddit.com/r/UXDesign/comments/1awkkex/accessibility_notes_in_a_design_system_any_tips/",
+          "snippet": "I'm developing a design system from scratch and I'd like to hear your suggestions regarding accessibility notes for screen readers per component. Would it be advisable to include a section for these notes? Do you have any references to a design system that follows this approach?",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "Do this before presenting your design! - Accessibility check ... - Reddit",
+          "url": "https://www.reddit.com/r/UXDesign/comments/z2xfqr/do_this_before_presenting_your_design/",
+          "snippet": "Before posting your design online, presenting it to clients or testing it with real humans… make sure to run this checklist: Contrast - Does the contrast ratio of every important interaction element is high enough?",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "Help me design & test an actually useful accessibility tool!",
+          "url": "https://www.reddit.com/r/accessibility/comments/1814j1m/help_me_design_test_an_actually_useful/",
+          "snippet": "Help me design & test an actually useful accessibility tool! Hey r/accessibility community! So, essentially, I'm building an AI assistant/agent tool that's meant to leverage some things that people aren't really thinking about in the AI development space.",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "reddit_research_ops",
+      "query": "user research operations",
+      "site": "reddit.com",
+      "browserEngine": "camoufox",
+      "method": "homepage_df",
+      "durationMs": 9219,
+      "finalUrl": "https://duckduckgo.com/?ia=web&origin=funnel_home_website&t=h_&q=user+research+operations+site%3Areddit.com&chip-select=search",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [
+        "reddit.com"
+      ],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": false,
+      "visibleSiteFilter": true,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "How do you conduct user research when your company has no research ...",
+          "url": "https://www.reddit.com/r/UXDesign/comments/1bydnc8/how_do_you_conduct_user_research_when_your/",
+          "snippet": "You have to be creative. If you know your management is against conducting direct research after multiple efforts, approach to get buyin to buy research imo. To support buyin showcase some of free resources you found, and how they helped you, and state that having access to such difinitive research would make decisions easier and quicker.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "User Research: Comprehensive Guide : r/UXDesign - Reddit",
+          "url": "https://www.reddit.com/r/UXDesign/comments/11ku3ac/user_research_comprehensive_guide/",
+          "snippet": "In this guide, I've compiled a comprehensive guide to user research methods, categorizing them as qualitative or quantitative and providing descriptions, use cases, pros, and cons for each method. Whether you're a beginner or an experienced UX researcher, this guide will help you select the most appropriate research methods for your project.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "Any Product managers who successfully made the pivot to User Research ...",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/17betv9/any_product_managers_who_successfully_made_the/",
+          "snippet": "Any Product managers who successfully made the pivot to User Research? As the title says, I'm strongly considering this as a next step. My favorite parts of the job involve understanding user problems and gathering user insight. I've executed a few studies and found them very rewarding.",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "tiktok_retention",
+      "query": "tiktok retention editing tips",
+      "site": "tiktok.com",
+      "browserEngine": "camoufox",
+      "method": "homepage_df",
+      "durationMs": 9523,
+      "finalUrl": "https://duckduckgo.com/?ia=web&origin=funnel_home_website&t=h_&q=tiktok+retention+editing+tips+site%3Atiktok.com&chip-select=search",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [
+        "tiktok.com"
+      ],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": false,
+      "visibleSiteFilter": true,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "#tiktokretentiontips | TikTok",
+          "url": "https://www.tiktok.com/tag/tiktokretentiontips",
+          "snippet": "tiktok retention tips | Watch the latest videos about #tiktokretentiontips on TikTok.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "RETENTION EDITING TIPS, keep em watching. The magic of post ... - TikTok",
+          "url": "https://www.tiktok.com/@lacapture/video/7324181846692990254",
+          "snippet": "43.1K Likes, 400 Comments. TikTok video from LACAPTURE (@lacapture): \"RETENTION EDITING TIPS, keep em watching. The magic of post production 🔥 🏼 #cinematic #lacapture\". retention editing. original sound - LACAPTURE.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "Short Form Video Editing Tips for Maximum Retention | TikTok",
+          "url": "https://www.tiktok.com/@nightow1_/video/7269485975565372704",
+          "snippet": "1184 Likes, 39 Comments. TikTok video from Nightowl (@nightow1_): \"Discover essential editing tips to enhance your short form videos and keep viewers engaged. Boost retention with effective graphics and concise edits! #videoeditingtips #videoeditingtutorial\".",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "tiktok_marketing",
+      "query": "tiktok marketing strategy",
+      "site": "tiktok.com",
+      "browserEngine": "camoufox",
+      "method": "homepage_df",
+      "durationMs": 8930,
+      "finalUrl": "https://duckduckgo.com/?ia=web&origin=funnel_home_website&t=h_&q=tiktok+marketing+strategy+site%3Atiktok.com&chip-select=search",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [
+        "tiktok.com"
+      ],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": false,
+      "visibleSiteFilter": true,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "Learning & Resources for Marketers | TikTok for Business",
+          "url": "https://ads.tiktok.com/business/en-US/resources",
+          "snippet": "Explore our best practices, tips and guidelines for building your brand presence and marketing on TikTok. Understand the TikTok audience and plan your strategy.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "TikTok Marketing Guide:",
+          "url": "https://ads.tiktok.com/business/en-US/blog/tiktok-marketing-guide",
+          "snippet": "TikTok is a powerful tool for businesses and creators to connect with an engaged audience. Learn how to market on TikTok and integrate short-form video in your marketing strategy.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "TikTok Small Business Marketing Guide:",
+          "url": "https://ads.tiktok.com/business/en-US/blog/small-business-marketing-tiktok-ultimate-guide",
+          "snippet": "Discover how small businesses can leverage TikTok's organic content, paid ads, and creator partnerships to expand their audience, drive engagement, and boost sales. Learn effective strategies from real-life success stories.",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "x_user_interviews_range",
+      "query": "user interview insights",
+      "site": "x.com",
+      "dateFrom": "2026-02-26",
+      "dateTo": "2026-03-26",
+      "browserEngine": "camoufox",
+      "method": "homepage_df",
+      "durationMs": 10119,
+      "finalUrl": "https://duckduckgo.com/?q=user+interview+insights+site%3Ax.com&df=2026-02-26..2026-03-26&ia=web",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [
+        "x.com"
+      ],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": true,
+      "visibleSiteFilter": true,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "Claude Power User Series 99% using Claude wrong. Projects fix ...",
+          "url": "https://x.com/NainsiDwiv50980/status/2036334838530318663",
+          "snippet": "Interview me one question at a time about what I deliver, then give me 3-5 Project names + which files to upload.\" Claude will ask ~4 questions. Answer honestly. It will surface projects you didn't even know you needed. Pro insight: Most people discover they have 4-6 repeatable deliverables. Each one becomes its own Project.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "Find out why simple rules can help users stay focused in environments ...",
+          "url": "https://x.com/beincrypto/status/2032761602160627791",
+          "snippet": "BeInCrypto (@beincrypto). 247 likes. Find out why simple rules can help users stay focused in environments that never pause! The interview dives into structured execution and practical automation insights.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "My interview with NVIDIA VP Kari Briski is now available on YouTube ...",
+          "url": "https://x.com/kimmonismus/status/2036909766812090766",
+          "snippet": "Chubby♨️ (@kimmonismus). 206 likes 19 replies. My interview with NVIDIA VP Kari Briski is now available on YouTube. This is my third interview with NVIDIA, the second with Kari, and previously with Ming-Yu Liu. As I mentioned, it's been a long road to get here. I started on X purely for the joy of discussing AI with like-minded people and initially wanted to remain anonymous, as I never ...",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "reddit_pm_frameworks",
+      "query": "product management prioritization framework",
+      "site": "reddit.com",
+      "browserEngine": "camoufox",
+      "method": "homepage_df",
+      "durationMs": 10833,
+      "finalUrl": "https://duckduckgo.com/?ia=web&origin=funnel_home_website&t=h_&q=product+management+prioritization+framework+site%3Areddit.com&chip-select=search",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [
+        "reddit.com"
+      ],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": false,
+      "visibleSiteFilter": true,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "Prioritization Frameworks : r/ProductManagement - Reddit",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/135zpyg/prioritization_frameworks/",
+          "snippet": "The way I look at prioritization frameworks is that they all somewhat boil down to 3 major categories that people evaluate and everything you see in most frameworks is just doing an analysis on one of these: - Value - Effort - Risk (Confidence) This should look very similar to Kano or ICE if you're looking at frameworks. If you're just starting out in the space, it's more valuable to have some ...",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "Prioritization Frameworks : r/ProductManagement - Reddit",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/m6c89z/prioritization_frameworks/",
+          "snippet": "Prioritization Frameworks I've been doing Product Management rather informally for a number of years. Recently, I read Product Roadmaps Relaunched and they have a whole chapter on prioritization frameworks. I was BLOWN away and rather embarrassed that I have gone this far in my career without having known about them.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "What are some of the prioritisation frameworks that you ... - Reddit",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/se5rhd/what_are_some_of_the_prioritisation_frameworks/",
+          "snippet": "One needs to still keep learning and utilizing framework concepts because frameworks cover a lot of parameters that ought to be thought of when it comes to prioritization. Besides it always is nice to show the effort put into prioritization and looks good in upward management.",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "simple_agentic_ai",
+      "query": "agentic AI workflows",
+      "browserEngine": "camoufox",
+      "method": "homepage_operators",
+      "durationMs": 7676,
+      "finalUrl": "https://duckduckgo.com/?ia=web&origin=funnel_home_website&t=h_&q=agentic+AI+workflows&chip-select=search",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": false,
+      "visibleSiteFilter": false,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "Agentic workflows guide: definition, patterns, and use cases",
+          "url": "https://www.dataiku.com/stories/blog/agentic-workflows",
+          "snippet": "Agentic workflows let AI agents plan, act, and learn with minimal oversight. Discover components, real examples, pros, risks, and a clear seven-step implementation checklist.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "What are agentic workflows? - IBM",
+          "url": "https://www.ibm.com/think/topics/agentic-workflows",
+          "snippet": "Agentic workflows are AI-driven processes where autonomous AI agents make decisions, take actions and coordinate tasks with minimal human intervention.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "What Are Agentic Workflows? Design Patterns & When to Use Them",
+          "url": "https://neo4j.com/blog/agentic-ai/what-are-agentic-workflows/",
+          "snippet": "Traditional deterministic workflows are fully predefined systems. Every step, branch, and outcome is specified in advance using rules or process definitions. They excel when the path from input to outcome is known and stable. Non-agentic AI workflows introduce LLMs into the process, but the overall structure remains mostly linear. The sequence of steps is still predefined, even if one step is ...",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "simple_tiktok_marketing",
+      "query": "best tiktok marketing strategies",
+      "browserEngine": "camoufox",
+      "method": "homepage_operators",
+      "durationMs": 11050,
+      "finalUrl": "https://duckduckgo.com/?ia=web&origin=funnel_home_website&t=h_&q=best+tiktok+marketing+strategies&chip-select=search",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": false,
+      "visibleSiteFilter": false,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "10 Step TikTok Marketing Strategy Guide [Updated: 2026]",
+          "url": "https://houseofmarketers.com/ultimate-tiktok-marketing-strategy-guide/",
+          "snippet": "The ultimate roadmap to mastering TikTok marketing strategy, content development, and promotion, brought to you by House of Marketers.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "TikTok Marketing: The Complete Guide for 2026 | Sprout Social",
+          "url": "https://sproutsocial.com/insights/tiktok-marketing/",
+          "snippet": "This complete guide on TikTok marketing will walk you through what TikTok marketing is, how to create your strategy, and offer tips for success.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "The complete guide to TikTok marketing: Tips, examples & tools",
+          "url": "https://blog.hootsuite.com/tiktok-marketing/",
+          "snippet": "Considering TikTok marketing for your business? You've come to the right place. Learn how to make the most of this engaging social network.",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "x_tiktok_marketing_range",
+      "query": "best tiktok marketing strategies",
+      "site": "x.com",
+      "dateFrom": "2026-02-28",
+      "dateTo": "2026-03-28",
+      "browserEngine": "camoufox",
+      "method": "homepage_operators",
+      "durationMs": 12184,
+      "finalUrl": "https://duckduckgo.com/?ia=web&origin=funnel_home_website&t=h_&q=best+tiktok+marketing+strategies+site%3Ax.com+after%3A2026-02-28+before%3A2026-03-28&chip-select=search",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [
+        "x.com"
+      ],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": false,
+      "visibleSiteFilter": true,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "Organic best practices - business.x.com",
+          "url": "https://business.x.com/en/basics/organic-best-practices",
+          "snippet": "The most successful brands on X have both paid and organic strategies. To illustrate, an engagement campaign is more likely to be successful if your profile has a healthy stream of engaging organic content.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "TikTok (@tiktok) / Posts / X - Twitter",
+          "url": "https://x.com/TikTok",
+          "snippet": "TikTok (@tiktok) - Posts - TikTok™️ — Free local offers delivered right to your phone! Just 'show up and show app' to redeem of... | X (formerly Twitter)",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "X Business",
+          "url": "https://business.x.com/",
+          "snippet": "Grow your business on X with powerful advertising tools, analytics, and monetization options. Connect with a global audience and achieve your goals.",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "x_ux_ui_range",
+      "query": "UX UI best practice",
+      "site": "x.com",
+      "dateFrom": "2026-02-26",
+      "dateTo": "2026-03-26",
+      "browserEngine": "camoufox",
+      "method": "homepage_operators",
+      "durationMs": 10770,
+      "finalUrl": "https://duckduckgo.com/?ia=web&origin=funnel_home_website&t=h_&q=UX+UI+best+practice+site%3Ax.com+after%3A2026-02-26+before%3A2026-03-26&chip-select=search",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [
+        "x.com"
+      ],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": false,
+      "visibleSiteFilter": true,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "H1 26 Product Roadmap Summary with something extra @TrustWallet : 1 ...",
+          "url": "https://x.com/felix_fan/status/2022519614522204588",
+          "snippet": "Felix (@felix_fan). 110 likes 40 replies. H1 26 Product Roadmap Summary with something extra @TrustWallet : 1. Trading • Support live charts • Expand coverage (\"Trade anything on Trust\") • Implement transparent fee structures 2. UX 2.0 • Simple by default; advanced by choice • Eliminate clutter and feature redundancy, reduce cognitive load • App Performance upgrade 3. Pay ...",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "\"#uiuxcamp\" - Results on X | Live Posts & Updates",
+          "url": "https://x.com/hashtag/uiuxcamp",
+          "snippet": "Results for \"#uiuxcamp\" on X (Twitter). Find the latest posts, discussions, and updates about #uiuxcamp. 19 results found.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "there's a quiet shift happening in how we design software. we're moving ...",
+          "url": "https://x.com/gregisenberg/status/1947693459147526179",
+          "snippet": "GREG ISENBERG (@gregisenberg). 143 replies. there's a quiet shift happening in how we design software. we're moving from UX to AX (agentic experience). traditional UX is screen-centric. you tap a button, product reacts, job done. every session starts from zero. designers pre-plan every path with hard-coded flows. users fill out forms and dropdowns because the product remembers nothing about ...",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "reddit_design_system",
+      "query": "design system accessibility",
+      "site": "reddit.com",
+      "browserEngine": "camoufox",
+      "method": "homepage_operators",
+      "durationMs": 9592,
+      "finalUrl": "https://duckduckgo.com/?ia=web&origin=funnel_home_website&t=h_&q=design+system+accessibility+site%3Areddit.com&chip-select=search",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [
+        "reddit.com"
+      ],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": false,
+      "visibleSiteFilter": true,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "Accessibility Notes in a Design System - Any Tips or References : r ...",
+          "url": "https://www.reddit.com/r/UXDesign/comments/1awkkex/accessibility_notes_in_a_design_system_any_tips/",
+          "snippet": "I'm developing a design system from scratch and I'd like to hear your suggestions regarding accessibility notes for screen readers per component. Would it be advisable to include a section for these notes? Do you have any references to a design system that follows this approach?",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "Do this before presenting your design! - Accessibility check ... - Reddit",
+          "url": "https://www.reddit.com/r/UXDesign/comments/z2xfqr/do_this_before_presenting_your_design/",
+          "snippet": "Before posting your design online, presenting it to clients or testing it with real humans… make sure to run this checklist: Contrast - Does the contrast ratio of every important interaction element is high enough?",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "WCAG for Designers : r/UXDesign - Reddit",
+          "url": "https://www.reddit.com/r/UXDesign/comments/1csiqwz/wcag_for_designers/",
+          "snippet": "I've always been a bit confused on what accessible design looks like in a practical sense when they are implemented into your process as a designer. I've seen job postings with requirements like \"Good working knowledge of WCAG2.1AA accessibility standard with understanding of WCAG2.2AA\". What does this mean for a UX Designer? I do the basics like using contrast checkers for color, not relying ...",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "reddit_research_ops",
+      "query": "user research operations",
+      "site": "reddit.com",
+      "browserEngine": "camoufox",
+      "method": "homepage_operators",
+      "durationMs": 9402,
+      "finalUrl": "https://duckduckgo.com/?ia=web&origin=funnel_home_website&t=h_&q=user+research+operations+site%3Areddit.com&chip-select=search",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [
+        "reddit.com"
+      ],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": false,
+      "visibleSiteFilter": true,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "How do you conduct user research when your company has no research ...",
+          "url": "https://www.reddit.com/r/UXDesign/comments/1bydnc8/how_do_you_conduct_user_research_when_your/",
+          "snippet": "You have to be creative. If you know your management is against conducting direct research after multiple efforts, approach to get buyin to buy research imo. To support buyin showcase some of free resources you found, and how they helped you, and state that having access to such difinitive research would make decisions easier and quicker.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "User Research: Comprehensive Guide : r/UXDesign - Reddit",
+          "url": "https://www.reddit.com/r/UXDesign/comments/11ku3ac/user_research_comprehensive_guide/",
+          "snippet": "In this guide, I've compiled a comprehensive guide to user research methods, categorizing them as qualitative or quantitative and providing descriptions, use cases, pros, and cons for each method. Whether you're a beginner or an experienced UX researcher, this guide will help you select the most appropriate research methods for your project.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "Any Product managers who successfully made the pivot to User Research ...",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/17betv9/any_product_managers_who_successfully_made_the/",
+          "snippet": "Any Product managers who successfully made the pivot to User Research? As the title says, I'm strongly considering this as a next step. My favorite parts of the job involve understanding user problems and gathering user insight. I've executed a few studies and found them very rewarding.",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "tiktok_retention",
+      "query": "tiktok retention editing tips",
+      "site": "tiktok.com",
+      "browserEngine": "camoufox",
+      "method": "homepage_operators",
+      "durationMs": 10437,
+      "finalUrl": "https://duckduckgo.com/?ia=web&origin=funnel_home_website&t=h_&q=tiktok+retention+editing+tips+site%3Atiktok.com&chip-select=search",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [
+        "tiktok.com"
+      ],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": false,
+      "visibleSiteFilter": true,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "#tiktokretentiontips | TikTok",
+          "url": "https://www.tiktok.com/tag/tiktokretentiontips",
+          "snippet": "tiktok retention tips | Watch the latest videos about #tiktokretentiontips on TikTok.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "RETENTION EDITING TIPS, keep em watching. The magic of post ... - TikTok",
+          "url": "https://www.tiktok.com/@lacapture/video/7324181846692990254",
+          "snippet": "43.1K Likes, 400 Comments. TikTok video from LACAPTURE (@lacapture): \"RETENTION EDITING TIPS, keep em watching. The magic of post production 🔥 🏼 #cinematic #lacapture\". retention editing. original sound - LACAPTURE.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "Short Form Video Editing Tips for Maximum Retention | TikTok",
+          "url": "https://www.tiktok.com/@nightow1_/video/7269485975565372704",
+          "snippet": "1184 Likes, 39 Comments. TikTok video from Nightowl (@nightow1_): \"Discover essential editing tips to enhance your short form videos and keep viewers engaged. Boost retention with effective graphics and concise edits! #videoeditingtips #videoeditingtutorial\".",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "tiktok_marketing",
+      "query": "tiktok marketing strategy",
+      "site": "tiktok.com",
+      "browserEngine": "camoufox",
+      "method": "homepage_operators",
+      "durationMs": 9602,
+      "finalUrl": "https://duckduckgo.com/?ia=web&origin=funnel_home_website&t=h_&q=tiktok+marketing+strategy+site%3Atiktok.com&chip-select=search",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [
+        "tiktok.com"
+      ],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": false,
+      "visibleSiteFilter": true,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "Learning & Resources for Marketers | TikTok for Business",
+          "url": "https://ads.tiktok.com/business/en-US/resources",
+          "snippet": "Explore our best practices, tips and guidelines for building your brand presence and marketing on TikTok. Understand the TikTok audience and plan your strategy.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "TikTok Marketing Guide:",
+          "url": "https://ads.tiktok.com/business/en-US/blog/tiktok-marketing-guide",
+          "snippet": "TikTok is a powerful tool for businesses and creators to connect with an engaged audience. Learn how to market on TikTok and integrate short-form video in your marketing strategy.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "TikTok Small Business Marketing Guide:",
+          "url": "https://ads.tiktok.com/business/en-US/blog/small-business-marketing-tiktok-ultimate-guide",
+          "snippet": "Discover how small businesses can leverage TikTok's organic content, paid ads, and creator partnerships to expand their audience, drive engagement, and boost sales. Learn effective strategies from real-life success stories.",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "x_user_interviews_range",
+      "query": "user interview insights",
+      "site": "x.com",
+      "dateFrom": "2026-02-26",
+      "dateTo": "2026-03-26",
+      "browserEngine": "camoufox",
+      "method": "homepage_operators",
+      "durationMs": 11761,
+      "finalUrl": "https://duckduckgo.com/?ia=web&origin=funnel_home_website&t=h_&q=user+interview+insights+site%3Ax.com+after%3A2026-02-26+before%3A2026-03-26&chip-select=search",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [
+        "x.com"
+      ],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": false,
+      "visibleSiteFilter": true,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "The various intersecting depopulation agendas.",
+          "url": "https://x.com/wideawake_media/status/2032451500488716320",
+          "snippet": "Wide Awake Media (@wideawake_media). 52 replies. The various intersecting depopulation agendas.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "The Mike Huckabee interview, and the truth about America's deeply ...",
+          "url": "https://x.com/TuckerCarlson/status/2025357188424724509",
+          "snippet": "Tucker Carlson (@TuckerCarlson). The Mike Huckabee interview, and the truth about America's deeply unhealthy relationship with Israel. (0:00) Why We Were Interrogated in Israel (25:38) Why Did Huckabee Meet With American Traitor Jonathan Pollard? (34:26) Has Huckabee Advocated to Extradite Sex Offenders Who Flee From the US to Israel? (40:26) Why Are There Still Classified Epstein Files? (46 ...",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "Twitter. It's what's happening / Twitter",
+          "url": "https://x.com/i/account_analytics",
+          "snippet": "See your profile analytics, understand your audience and more. Upgrade to continue.",
+          "source": "duckduckgo"
+        }
+      ]
+    },
+    {
+      "name": "reddit_pm_frameworks",
+      "query": "product management prioritization framework",
+      "site": "reddit.com",
+      "browserEngine": "camoufox",
+      "method": "homepage_operators",
+      "durationMs": 11650,
+      "finalUrl": "https://duckduckgo.com/?ia=web&origin=funnel_home_website&t=h_&q=product+management+prioritization+framework+site%3Areddit.com&chip-select=search",
+      "blocked": false,
+      "resultCount": 5,
+      "expectedHostPatterns": [
+        "reddit.com"
+      ],
+      "matchingResultCount": 5,
+      "topResultMatchesExpectedHost": true,
+      "pass": true,
+      "visibleDateFilter": false,
+      "visibleSiteFilter": true,
+      "warnings": [],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "Prioritization Frameworks : r/ProductManagement - Reddit",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/135zpyg/prioritization_frameworks/",
+          "snippet": "The way I look at prioritization frameworks is that they all somewhat boil down to 3 major categories that people evaluate and everything you see in most frameworks is just doing an analysis on one of these: - Value - Effort - Risk (Confidence) This should look very similar to Kano or ICE if you're looking at frameworks. If you're just starting out in the space, it's more valuable to have some ...",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 2,
+          "title": "How do you prioritize? : r/ProductManagement - Reddit",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/mj5ly2/how_do_you_prioritize/",
+          "snippet": "I don't use a framework. We've tried, but the market landscape, opportunities, and challenges change quickly enough that any scoring rubric quickly becomes outdated or needs to be constantly updated (meaning prioritization decisions still can't be compared historically!) I rely on experience and stakeholder feedback.",
+          "source": "duckduckgo"
+        },
+        {
+          "rank": 3,
+          "title": "What are some of the prioritisation frameworks that you ... - Reddit",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/se5rhd/what_are_some_of_the_prioritisation_frameworks/",
+          "snippet": "One needs to still keep learning and utilizing framework concepts because frameworks cover a lot of parameters that ought to be thought of when it comes to prioritization. Besides it always is nice to show the effort put into prioritization and looks good in upward management.",
+          "source": "duckduckgo"
+        }
+      ]
+    }
+  ]
+}

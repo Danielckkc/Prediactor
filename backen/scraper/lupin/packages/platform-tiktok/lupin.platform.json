@@ -1,0 +1,58 @@
+{
+  "apiVersion": 1,
+  "name": "tiktok",
+  "displayName": "TikTok",
+  "description": "Installable platform provider for TikTok videos and profiles.",
+  "version": "0.1.0",
+  "entry": "./index.js",
+  "tools": {
+    "search": [
+      {
+        "tool": "search_tiktok",
+        "alias": "tiktok",
+        "description": "Search for TikTok videos via the search_web SERP chain. Results depend on external search indexing, not TikTok's own search.",
+        "inputSchema": "search.standard",
+        "handler": "search",
+        "browser": {
+          "camoufox": true
+        }
+      }
+    ],
+    "fetch": [
+      {
+        "tool": "fetch_tiktok_post",
+        "alias": "tiktok",
+        "description": "Fetch a TikTok video. Returns author, caption, stats, preview media, and metadata.",
+        "inputSchema": "fetch.standard",
+        "handler": "fetchPost",
+        "browser": {
+          "camoufox": true
+        }
+      },
+      {
+        "tool": "fetch_tiktok_profile",
+        "alias": "tiktok-profile",
+        "description": "Fetch a TikTok profile. Returns name, handle, bio, follower/following/like/video counts, verification status, and recent video URLs.",
+        "inputSchema": "fetch.standard",
+        "handler": "fetchProfile",
+        "browser": {
+          "camoufox": true
+        }
+      }
+    ]
+  },
+  "smokeTests": [
+    {
+      "name": "known-public-video",
+      "kind": "fetch",
+      "alias": "tiktok",
+      "url": "https://www.tiktok.com/@scout2015/video/6718335390845095173"
+    },
+    {
+      "name": "known-public-profile",
+      "kind": "fetch",
+      "alias": "tiktok-profile",
+      "url": "https://www.tiktok.com/@khaby.lame"
+    }
+  ]
+}

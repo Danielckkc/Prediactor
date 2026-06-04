@@ -1,0 +1,55 @@
+{
+  "apiVersion": 1,
+  "name": "instagram",
+  "displayName": "Instagram",
+  "description": "Installable platform provider for Instagram posts, reels, and profiles.",
+  "version": "0.1.0",
+  "entry": "./index.js",
+  "tools": {
+    "search": [
+      {
+        "tool": "search_instagram",
+        "alias": "instagram",
+        "description": "Search for Instagram posts and reels via the search_web SERP chain. Results depend on external search indexing, not Instagram's own search.",
+        "inputSchema": "search.standard",
+        "handler": "search",
+        "browser": {
+          "camoufox": true
+        }
+      }
+    ],
+    "fetch": [
+      {
+        "tool": "fetch_instagram_post",
+        "alias": "instagram",
+        "description": "Fetch an Instagram post or reel. Returns author, caption, like/comment counts, and preview image. Comments are NOT available. Supports /p/ and /reel/ URLs.",
+        "inputSchema": "fetch.standard",
+        "handler": "fetchPost"
+      },
+      {
+        "tool": "fetch_instagram_profile",
+        "alias": "instagram-profile",
+        "description": "Fetch an Instagram profile. Returns name, handle, bio, follower/following/post counts, profile picture, verification status, and up to 12 latest post/reel URLs. Requires a browser session. Pass a profile URL like instagram.com/username.",
+        "inputSchema": "fetch.standard",
+        "handler": "fetchProfile",
+        "browser": {
+          "camoufox": true
+        }
+      }
+    ]
+  },
+  "smokeTests": [
+    {
+      "name": "known-public-post",
+      "kind": "fetch",
+      "alias": "instagram",
+      "url": "https://www.instagram.com/p/DUqM9L0CCE5/"
+    },
+    {
+      "name": "known-public-profile",
+      "kind": "fetch",
+      "alias": "instagram-profile",
+      "url": "https://www.instagram.com/natgeo/"
+    }
+  ]
+}
