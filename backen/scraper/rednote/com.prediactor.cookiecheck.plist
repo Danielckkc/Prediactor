@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.prediactor.cookiecheck</string>
+
+  <!-- Checks the RedNote cookie twice a day; emails (if SMTP set) when it dies. -->
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/daniel_mba/Documents/GitHub/Prediactor/backen/scraper/rednote/check_cookie.sh</string>
+  </array>
+
+  <!-- Run at 09:00 (morning) and 15:00 (afternoon) every day -->
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict>
+      <key>Hour</key><integer>9</integer>
+      <key>Minute</key><integer>0</integer>
+    </dict>
+    <dict>
+      <key>Hour</key><integer>15</integer>
+      <key>Minute</key><integer>0</integer>
+    </dict>
+  </array>
+
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/daniel_mba/Documents/GitHub/Prediactor/backen/scraper/rednote/logs/launchd.cookiecheck.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/daniel_mba/Documents/GitHub/Prediactor/backen/scraper/rednote/logs/launchd.cookiecheck.err.log</string>
+</dict>
+</plist>

@@ -7,7 +7,7 @@ import sys
 from typing import Any, Dict, List, Optional
 from urllib.parse import parse_qs, urlparse
 
-from extractors.search_mode import SearchModeExtractor
+from extractors.search_mode import SearchModeExtractor, _generate_search_id
 from extractors.comment_mode import CommentModeExtractor
 from extractors.profile_mode import ProfileModeExtractor
 from extractors.user_posts_mode import UserPostsModeExtractor
@@ -15,8 +15,9 @@ from extractors.download_mode import DownloadModeExtractor
 from output.exporter import JsonExporter
 from utils.rate_limit import RateLimiter
 from utils.notify import cookie_expired_was_detected
+from utils.signing import SignedClient, CookieRequiredError
 
-LOGGER = logging.getLogger("rednote.main")
+LOGGER = logging.getLogger("rednote.redscraper")
 
 _NOTE_ID_RE = re.compile(r"/(?:explore|item)/([0-9a-fA-F]+)")
 
@@ -98,8 +99,9 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--mode",
-        choices=["search", "comment", "profile", "userPosts", "download"],
-        help="Scraping mode. If omitted, falls back to data/sample_input.json",
+        choices=["search", "comment", "profile", "userPosts", "download", "check"],
+        help="Scraping mode (or 'check' = cookie health check). "
+             "If omitted, falls back to data/sample_input.json",
     )
     parser.add_argument("--keyword", help="Keyword for search mode")
     parser.add_argument(
@@ -246,6 +248,38 @@ def run_download_mode(
     extractor = DownloadModeExtractor(settings=settings, rate_limiter=limiter)
     return extractor.run(note_ids=note_ids, xsec_token=cfg.get("xsecToken", ""))
 
+def run_check_mode(settings: Dict[str, Any], limiter: RateLimiter) -> None:
+    """
+    Cookie health check: one cheap signed request. If the cookie is dead, the
+    SignedClient automatically fires the expiry alarm (loud log + marker file +
+    desktop popup + email when SMTP is configured). Exits 0 = valid / not set up,
+    3 = expired (needs a fresh cookie).
+    """
+    client = SignedClient(settings, timeout=int(settings.get("search", {}).get("timeoutSeconds", 10)))
+    limiter.wait()
+    payload = {
+        "keyword": "美食", "page": 1, "page_size": 1,
+        "search_id": _generate_search_id(), "sort": "general", "note_type": 0,
+        "ext_flags": [], "image_formats": ["jpg", "webp", "avif"],
+    }
+    try:
+        data = client.post_json("/api/sns/web/v1/search/notes", payload)
+    except CookieRequiredError as exc:
+        LOGGER.warning("Cookie not configured yet: %s", exc)
+        sys.exit(0)  # not "expired" — just not set up; no alarm
+    except Exception as exc:  # noqa: BLE001 - network/transport
+        LOGGER.error("Cookie check could not reach RedNote (network?): %s", exc)
+        sys.exit(0)  # can't conclude the cookie is dead from a network blip
+
+    if data.get("success"):
+        LOGGER.info("✅ Cookie is VALID — RedNote accepted the signed request.")
+        sys.exit(0)
+    if cookie_expired_was_detected():
+        LOGGER.error("❌ Cookie INVALID/EXPIRED — alarm sent. Refresh RED_COOKIE in backen/.env.")
+        sys.exit(3)
+    LOGGER.error("Cookie check got a non-success response (code=%s).", data.get("code"))
+    sys.exit(1)
+
 def main() -> None:
     load_dotenv()  # pick up RED_COOKIE (and any other vars) from .env
     args = parse_args()
@@ -264,11 +298,16 @@ def main() -> None:
         sys.exit(1)
 
     mode = cfg.get("mode")
-    if mode not in {"search", "comment", "profile", "userPosts", "download"}:
+    if mode not in {"search", "comment", "profile", "userPosts", "download", "check"}:
         LOGGER.error("Invalid or missing mode in configuration: %r", mode)
         sys.exit(1)
 
     limiter = build_rate_limiter(settings)
+
+    if mode == "check":
+        run_check_mode(settings, limiter)  # health check; exits internally
+        return
+
     exporter = JsonExporter(settings=settings)
 
     try:

@@ -20,6 +20,10 @@ scraper/json/*.json
 scraper/rednote/data/downloads/
 scraper/rednote/data/COOKIE_EXPIRED.flag
 
+# --- Daily-job logs (runtime artifacts) ---
+scraper/logs/
+scraper/rednote/logs/
+
 # Committed on purpose: uv.lock, requirements.txt, pyproject.toml,
 # scraper/lupin/package.json, scraper/lupin/package-lock.json.
 # (scraper/json/ output is NOT committed — both scrapers recreate it on run.)

@@ -12,7 +12,7 @@ unattended (cron):
   3. A macOS desktop notification (best-effort)
   4. An email, IF SMTP is configured (settings.json `notify` or env vars)
 
-main.py also exits with code 3 when this fired, so automation can react.
+redscraper.py also exits with code 3 when this fired, so automation can react.
 """
 
 import datetime as _dt

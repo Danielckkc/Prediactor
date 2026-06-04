@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.prediactor.daily</string>
+
+  <!-- One daily job that orchestrates BOTH scrapers: Lupin first (under a
+       silence-watchdog), then RedNote — RedNote always runs even if Lupin
+       crashes or hangs. Replaces the old standalone scraper/rednote jobs. -->
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/daniel_mba/Documents/GitHub/Prediactor/backen/scraper/run_daily_all.sh</string>
+  </array>
+
+  <!-- Run every day at 02:00 -->
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>2</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/daniel_mba/Documents/GitHub/Prediactor/backen/scraper/logs/launchd.daily.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/daniel_mba/Documents/GitHub/Prediactor/backen/scraper/logs/launchd.daily.err.log</string>
+</dict>
+</plist>

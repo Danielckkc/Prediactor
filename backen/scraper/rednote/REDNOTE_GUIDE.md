@@ -52,17 +52,17 @@ cd backen/scraper/rednote/src
 alias py="../../../.venv/bin/python"   # the shared backend venv
 
 # Search — 'popular' sort ≈ "trending for a topic"
-py main.py --mode search --keyword "美食" --sort popular --max-items 50
+py redscraper.py --mode search --keyword "美食" --sort popular --max-items 50
 
 # Comments for a note
-py main.py --mode comment --note-id NOTE_ID --xsec-token TOKEN --max-items 100
+py redscraper.py --mode comment --note-id NOTE_ID --xsec-token TOKEN --max-items 100
 
 # A user's profile / their posts
-py main.py --mode profile   --user-id USER_ID
-py main.py --mode userPosts --user-id USER_ID --max-items 50
+py redscraper.py --mode profile   --user-id USER_ID
+py redscraper.py --mode userPosts --user-id USER_ID --max-items 50
 
 # Download a note's media (paste the full share link, token included)
-py main.py --mode download --url "https://www.xiaohongshu.com/explore/NOTE_ID?xsec_token=XXX"
+py redscraper.py --mode download --url "https://www.xiaohongshu.com/explore/NOTE_ID?xsec_token=XXX"
 ```
 
 Results are written to the shared **`backen/scraper/json/`** folder (next to
@@ -90,6 +90,51 @@ immediately instead of silently collecting nothing — via **all** of:
 
 When you see it: log in again, copy a fresh cookie into `.env`, done. (A
 *missing* cookie is different — that just warns "cookie required" and exits 0.)
+
+---
+
+## Daily automation (macOS launchd)
+RedNote runs as part of **one daily orchestrator at 02:00** (`../run_daily_all.sh`,
+launchd label `com.prediactor.daily`): Lupin (IG/TikTok) runs first, then RedNote.
+
+**RedNote ALWAYS runs after Lupin** — even if Lupin crashes or hangs. The
+orchestrator decides Lupin is "hung" only when its log goes *silent* for ~20 min
+(no progress), never just because it's slow — so a slow-but-working Lupin is
+never falsely killed.
+
+- **RedNote runner:** `run_daily.sh` — edit `KEYWORDS=(...)` / `MAX_ITEMS` near the top.
+- **Orchestrator + schedule:** `../run_daily_all.sh`, scheduled by `../com.prediactor.daily.plist`.
+- **Manage it:**
+  ```bash
+  launchctl list | grep prediactor        # should show com.prediactor.daily
+  bash ../run_daily_all.sh                 # test the whole chain (Lupin -> RedNote)
+  bash run_daily.sh                        # test RedNote alone
+  ```
+- Until `RED_COOKIE` is set in `backen/.env`, each nightly RedNote run just no-ops (exit 0).
+
+---
+
+## Cookie health check (twice daily) + email alerts
+A separate launchd job `com.prediactor.cookiecheck` runs `check_cookie.sh` at
+**09:00 and 15:00**. It makes one cheap signed request:
+- cookie **valid** → just logs "VALID" (no spam),
+- cookie **dead** → fires the expiry alarm (loud log + `data/COOKIE_EXPIRED.flag`
+  + macOS popup + **email**), so you know to refresh it that day.
+
+Run it yourself any time: `bash check_cookie.sh` (or `python redscraper.py --mode check`).
+
+### Get email alerts via Gmail
+Add these to **`backen/.env`** (the check picks them up automatically):
+```
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=you@gmail.com
+SMTP_PASSWORD=your-16-char-app-password
+NOTIFY_EMAIL=you@gmail.com
+```
+Gmail needs an **App Password** (not your normal password): enable 2-Step
+Verification, then Google Account → Security → App passwords. Without SMTP set,
+the check still alerts via log + marker file + desktop popup — just no email.
 
 ---
 
