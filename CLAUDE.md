@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 @AGENTS.md
 
-Have to say "good morning, The 67 Gonner" before you start anything.
+Have to say "good morning, The 67 Gonner" before you start anything. And yell 67 at the end
 
 ## Big picture
 Prediactor scrapes social media for "trending / most-on-fire" posts (an AI trend-analysis
@@ -25,6 +25,10 @@ Next.js frontend are still scaffolds on this stack (`backen/app/main.py` is empt
      web API with the `xhshow` library. Runs on the backend uv venv + `.env`. Full docs:
      `scraper/rednote/REDNOTE_GUIDE.md`.
 - All scraper output → `backen/scraper/json/` (gitignored; recreated each run, so fresh clones work).
+- Load JSON → Postgres: `cd backen && .venv/bin/python scraper/load_to_db.py` upserts every
+  `scraper/json/*.json` into a single `posts` table (common columns: source/platform/url/title/
+  author/engagement/scraped_at + a `raw` JSONB of the full original; PK = url or note-id, so
+  re-running is idempotent). Handles both the Lupin and RedNote shapes.
 - Daily run: ONE launchd job `com.prediactor.daily` at 02:00 runs
   `scraper/run_daily_all.sh`, which runs Lupin (`scraper.py`, inline) under a
   silence-watchdog, then ALWAYS runs RedNote (`scraper/rednote/run_daily.sh`) —
